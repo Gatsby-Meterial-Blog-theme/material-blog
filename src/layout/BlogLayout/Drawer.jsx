@@ -20,7 +20,7 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
-import { Consumer } from './Context.js';
+import { Consumer } from './context';
 
 import Tags from '../../components/Tags';
 

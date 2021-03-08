@@ -8,7 +8,7 @@ import globalTheme from '../../styles/theme';
 
 import WaveBackgroundAni from '../../components/WaveAniBackground';
 
-import { Provider } from './Context.js';
+import { Provider } from './context';
 import AppBar from './AppBar';
 import Drawer from './Drawer';
 
