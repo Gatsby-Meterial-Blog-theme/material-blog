@@ -5,7 +5,7 @@ import WarningIcon from '@material-ui/icons/WarningRounded';
 import BlogLayout from '../layout/BlogLayout';
 import BreakOutGame from '@lkoiescg2031/react-breakout';
 
-import SEO from '../components/seo';
+import SEO from '../components/SEO';
 
 const NotFoundPage = () => (
   <BlogLayout>
