@@ -4,7 +4,7 @@ import { StyleSheet, css } from 'aphrodite';
 
 import color from '../../styles/color';
 
-import { Provider } from './context';
+import { Provider } from './context.js';
 
 export default class BusinessCard extends PureComponent {
   static propTypes = {

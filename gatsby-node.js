@@ -166,15 +166,6 @@ exports.onCreateNode = async ({
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
 
-  //포스트 카테고리별 페이지 생성
-  const toRegexStr = str => {
-    return `/${str.replace('+', '\\+')}/`;
-  };
-
-  const toEncode = str => {
-    return str.replace('#', escape('#'));
-  };
-
   const result = await graphql(`
     query {
       allCategory {
@@ -197,6 +188,14 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `);
 
+  //포스트 카테고리별 페이지 생성
+  const toRegexStr = str => {
+    return `/${str.replace('+', '\\+')}/`;
+  };
+
+  const toEncode = str => {
+    return str.replace('#', escape('#'));
+  };
   result.data.allCategory.nodes.forEach(node => {
     createPage({
       path: toEncode(node.url),

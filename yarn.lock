@@ -2635,10 +2635,10 @@
     "@babel/runtime" "^7.7.2"
     regenerator-runtime "^0.13.3"
 
-"@lkoiescg2031/react-breakout@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@lkoiescg2031/react-breakout/-/react-breakout-0.1.0.tgz#1d6e9a6e7845bb04f5aadf6e19bc89b3dd5fe8ec"
-  integrity sha512-YUCe2BFNYbrGeMUjOUIzSG1Jj2EQ0SkK1sjmJWekFZzjpe5v38aE0Y/JAOdQlqiF84/S0ibxD/yzuF+Bk7V3cA==
+"@lkoiescg2031/react-breakout@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@lkoiescg2031/react-breakout/-/react-breakout-0.1.1.tgz#fecf900aa552f81a6669ed3ce76d958c259da012"
+  integrity sha512-ktHuQgYPupEqs6/Gc7wihZt6m4HGaw1DiIBB2EotpD44b8WqbgF0bURJTSf+OtXTAPfeRluqH1pHU6cYaGkP3A==
   dependencies:
     "@testing-library/jest-dom" "^5.11.4"
     "@testing-library/react" "^11.1.0"
@@ -8909,6 +8909,13 @@ gatsby-plugin-aphrodite@^2.0.5:
   integrity sha512-xHCOoPoGLfRJlJNmShsfhNPJUNRKorLA91nqczGAdzntn04arNBmizu39kW3OXkLgnFxC18LtG+quSqOCPqksg==
   dependencies:
     "@babel/runtime" "7.1.5"
+
+gatsby-plugin-client-side-redirect@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-client-side-redirect/-/gatsby-plugin-client-side-redirect-1.1.0.tgz#6c83e749e24d4e8be195d4ee470b30bf4d58f336"
+  integrity sha512-ox3QpfQynNmH4SgBedMxi9WdEFVI/fQep0cpAu5mPSIQElIJmy+TF5fDZc56Ra+cvr/dz45sw+tUzE41aMlLfw==
+  dependencies:
+    fs-extra "^7.0.0"
 
 gatsby-plugin-manifest@^2.6.1:
   version "2.12.1"

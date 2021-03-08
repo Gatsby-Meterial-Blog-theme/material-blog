@@ -1,5 +1,7 @@
 # 블로그 레포
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7d978317-36de-464e-9087-1730f60f653b/deploy-status)](https://app.netlify.com/sites/lkoiescg2031/deploys)
+
 ## 사용 기술
 
 javascript, typescript, reactjs, gatsbyjs, graphql, 
