@@ -13,7 +13,7 @@ const NotFoundPage = () => (
     <WarningIcon style={{ fontSize: '75px' }} color="error" />
     <h1>404: 페이지를 찾을 수 없음</h1>
     <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-    <BreakOutGame />
+    {/* <BreakOutGame /> */}
   </BlogLayout>
 );
 
