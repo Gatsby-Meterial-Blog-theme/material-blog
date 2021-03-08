@@ -11,7 +11,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import { makeStyles } from '@material-ui/core/styles';
 
 import ScrollEffect from './ScrollEffect';
-import { Consumer } from './Context';
+import { Consumer } from './Context.js';
 import { Button } from '@material-ui/core';
 
 const useStyles = makeStyles(theme => ({
