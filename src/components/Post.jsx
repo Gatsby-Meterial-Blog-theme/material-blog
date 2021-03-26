@@ -45,8 +45,6 @@ const usePostStyle = makeStyles(theme => ({
   },
 }));
 
-const domParser = new DOMParser();
-
 function Post({ post }) {
   const classes = usePostStyle();
 
@@ -54,12 +52,12 @@ function Post({ post }) {
   const desc = post.html.replace(imgTagRegExp, '');
 
   const imgHtmlStrings = post.html.match(imgTagRegExp) || new Array(0);
-  const descImgs = imgHtmlStrings.map(imgStr => {
-    const $img = domParser
-      .parseFromString(imgStr, 'application/xml')
-      .getElementsByTagName('img')[0];
-    return $img.attributes['src'].value;
-  });
+  const descImgs = imgHtmlStrings.map(x =>
+    x
+      .match(/src[^\s]*\s/gm)[0]
+      .split('=')[1]
+      .slice(1, -2),
+  );
 
   // 대표 이미지가 설정된 경우 사용
   let mediaImage = post.frontmatter.featuredImage;
