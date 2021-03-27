@@ -3,7 +3,7 @@ import { StaticQuery, graphql } from 'gatsby';
 
 import BlogLayout from './Layout';
 
-export default props => (
+const Container = props => (
   <StaticQuery
     query={graphql`
       {
@@ -71,3 +71,5 @@ export default props => (
     )}
   ></StaticQuery>
 );
+
+export default Container;
