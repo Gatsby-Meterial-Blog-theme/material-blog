@@ -51,24 +51,26 @@ module.exports = {
       },
     },
 
+    // TODO update for gatsby v3
     // aphrodite
-    `gatsby-plugin-aphrodite`,
+    // `gatsby-plugin-aphrodite`,
 
+    // TODO update for gatsby v3 
     // for material ui
-    {
-      resolve: `gatsby-plugin-material-ui`,
-      options: {
-        stylesProvider: {
-          injectFirst: true,
-        },
-      },
-    },
-    {
-      resolve: `gatsby-plugin-styled-components`,
-      options: {
-        displayName: false,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-material-ui`,
+    //   options: {
+    //     stylesProvider: {
+    //       injectFirst: true,
+    //     },
+    //   },
+    // },
+    // {
+    //   resolve: `gatsby-plugin-styled-components`,
+    //   options: {
+    //     displayName: false,
+    //   },
+    // },
 
     //for markdown
     {
